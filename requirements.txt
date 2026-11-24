@@ -1,0 +1,10 @@
+# Install a CUDA-compatible PyTorch build separately for your hardware.
+# Versions below were observed on the local machine on 2026-11-24, not an archived training lockfile.
+transformers==5.15.1
+peft==0.20.0
+bitsandbytes==0.50.2
+accelerate==1.14.0
+datasets==5.0.1
+scikit-learn==1.9.1
+safetensors==0.8.0
+tqdm

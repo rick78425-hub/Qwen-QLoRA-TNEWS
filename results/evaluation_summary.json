@@ -1,0 +1,28 @@
+{
+  "source": "Historical notebook saved outputs; not rerun during export",
+  "validation_rows": 10000,
+  "base": {
+    "accuracy": 0.563,
+    "macro_f1_rounded": 0.5,
+    "weighted_f1_rounded": 0.57
+  },
+  "full_qlora": {
+    "accuracy": 0.5896,
+    "macro_f1_rounded": 0.54,
+    "weighted_f1_rounded": 0.59
+  },
+  "accuracy_delta_percentage_points": 2.66,
+  "classification_report_note": "Historical classification_report includes fallback label 其他 (zero support); macro F1 as displayed, rounded to 2 decimals.",
+  "training": {
+    "global_step": 10005,
+    "epoch": 3.0,
+    "training_loss": 0.3397254634892446,
+    "train_runtime_seconds": 28396.9156
+  },
+  "adapter_repair": {
+    "matched_tensors": 224,
+    "diagnostic_single_tensor_max_abs_diff_before": 0.13735026121139526,
+    "diagnostic_loaded_lora_b_mean_abs_before": 0.0,
+    "mapped_tensors_max_abs_diff_after": 0.0
+  }
+}
